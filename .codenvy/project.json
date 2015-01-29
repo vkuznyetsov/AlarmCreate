@@ -1,0 +1,1 @@
+{"builders":{"default":"ant"},"runners":{"configs":{"system:/java/mobile/android431":{"ram":0,"variables":{},"options":{}}},"default":"system:/java/mobile/android431"},"description":"","type":"ant","attributes":{}}
