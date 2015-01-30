@@ -5,7 +5,8 @@
          It contains the path to the SDK. It should *NOT* be checked into
          Version Control Systems. -->
     <property file="local.properties" />
-		<property name="out.dir" value="target" />
+		    <property location="${basedir}/src" name="src.dir"/>
+      <property location="${basedir}/target" name="out.dir"/>
 
     <!-- The ant.properties file can be created by you. It is only edited by the
          'android' tool to add properties to it.
